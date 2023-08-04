@@ -2,6 +2,6 @@
 
 * [Web CTF Wiki](README.md)
 
-## Group 1
+## Arbitrary text
 
-* [Page 1](group-1/page-1.md)
+* [Also arbitrary text](group-1/page-1.md)
