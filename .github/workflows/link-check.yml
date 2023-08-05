@@ -30,7 +30,7 @@ jobs:
           - name: Alert when failed
             if: failure()
             env:
+              MESSAGE: "There is a link that does not point to web.archive.org. Please check: ${{ GITHUB.SERVER_URL }}/${{ GITHUB.REPOSITORY }}/actions/runs/${{ GITHUB.RUN_ID }}"
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             run: |
-              gh pr comment ${{ github.event.pull_request.number }} \
-                -b "There is a link that does not point to web.archive.org. Please check: ${{ GITHUB.SERVER_URL }}/${{ GITHUB.REPOSITORY }}/actions/runs/${{ GITHUB.RUN_ID }}""
+              gh pr comment ${{ github.event.pull_request.number }} -b "$MESSAGE"
