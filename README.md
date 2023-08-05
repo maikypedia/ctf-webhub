@@ -24,7 +24,7 @@ Even though this place is built from community pull requests, if you don't want 
 
 ## Contributors
 
-- [maikypedia]()
+- [maikypedia](https://twitter.com/maikypedia)
 - [jorgectf](https://twitter.com/jorge_ctf)
 
 With ❤️ from the community, for the community.
