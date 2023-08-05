@@ -4,22 +4,6 @@ This place aims to be the single source of knowledge for web challenges in CTFs.
 
 From writeups, through tools, to research papers, everything is welcome! If you want to contribute, please read the [How to contribute](#how-to-contribute) section.
 
-## How to contribute
-
-### Making changes
-
-To contribute, please follow these steps:
-1. Fork this repository
-2. Clone your fork
-3. Make your changes
-4. Add yourself to the [contributors](#contributors) list
-5. Commit and push your changes
-6. Open a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
-
-### Suggesting changes
-
-Even though this place is built from community pull requests, if you don't want to go through the hassle of forking and opening a pull request, you can also suggest changes by opening an [issue](https://github.com/jorgectf/ctf-web/issues/new?assignees=&labels=&projects=&template=suggestion.yml&title=%5BSuggestion%5D%20).
-
 ## Contributors
 
 - [maikypedia](https://twitter.com/maikypedia)
