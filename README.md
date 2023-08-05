@@ -8,15 +8,13 @@ From writeups, through tools, to research papers, everything is welcome! If you 
 
 ### Making changes
 
-This wiki is built using [GitBook](https://www.gitbook.com/). To contribute, please follow these steps:
+To contribute, please follow these steps:
 1. Fork this repository
 2. Clone your fork
-3. Install GitBook CLI: `npm install -g gitbook-cli` (optional)
-4. Run `gitbook serve` to start a local server (optional)
-5. Make your changes
-6. Add yourself to the [contributors](#contributors) list
-6. Commit and push your changes
-7. Open a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+3. Make your changes
+4. Add yourself to the [contributors](#contributors) list
+5. Commit and push your changes
+6. Open a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
 ### Suggesting changes
 
