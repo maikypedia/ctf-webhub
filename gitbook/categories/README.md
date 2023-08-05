@@ -2,4 +2,4 @@
 
 ## Client-side
 
-* [Cross-site Leak (XSLeak)](categories/client-side/xsleak.md)
+* [Cross-site Leak (XSLeak)](client-side/xsleak.md)
