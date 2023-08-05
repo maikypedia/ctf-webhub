@@ -19,7 +19,7 @@ This wiki is built using [GitBook](https://www.gitbook.com/). To contribute, ple
 
 ### Suggesting changes
 
-Even though this place is built from community pull requests, if you don't want to go through the hassle of forking and cloning, you can also suggest changes by opening an [issue]().
+Even though this place is built from community pull requests, if you don't want to go through the hassle of forking and cloning, you can also suggest changes by opening an [issue](https://github.com/jorgectf/ctf-web/issues/new?assignees=&labels=&projects=&template=suggestion.yml&title=%5BSuggestion%5D%20).
 
 ## Contributors
 

@@ -1,0 +1,17 @@
+name: Suggestion
+description: Suggest an addition to the gitbook
+title: "[Suggestion] "
+body:
+- type: input
+  attributes:
+    label: URL
+    description: The URL of the content you want to suggest
+    placeholder: http://web.archive.org/web/20230805074905/https://blog.huli.tw/2023/07/28/en/google-zer0pts-imaginary-ctf-2023-writeup/
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Details
+    description: What is it?
+  validations:
+    required: true
