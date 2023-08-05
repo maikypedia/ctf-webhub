@@ -14,6 +14,7 @@ This wiki is built using [GitBook](https://www.gitbook.com/). To contribute, ple
 3. Install GitBook CLI: `npm install -g gitbook-cli` (optional)
 4. Run `gitbook serve` to start a local server (optional)
 5. Make your changes
+6. Add yourself to the [contributors](#contributors) list
 6. Commit and push your changes
 7. Open a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
