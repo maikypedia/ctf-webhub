@@ -1,0 +1,36 @@
+name: Check links point to web.archive.org
+
+on:
+  pull_request_target:
+    types: 
+      - opened
+      - synchronize
+      - reopened
+    paths:
+      - 'gitbook/**'
+
+jobs:
+    check-links:
+        runs-on: ubuntu-latest
+
+        permissions:
+          contents: read
+          pull-requests: write
+
+        steps:
+          - uses: actions/checkout@v3
+
+          - name: Check links
+            shell: bash -x {0}
+            run: |
+              grep -riEo 'https?://[^) ]+' gitbook/ | grep -v '#nocheck' | sort | uniq | while read -r URL; do
+                python3 -c "from urllib.parse import urlparse; assert urlparse(\"$URL\").netloc == 'web.archive.org'"
+              done
+
+          - name: Alert when failed
+            if: failure()
+            env:
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            run: |
+              gh pr comment ${{ github.event.pull_request.number }} \
+                -b "There is a link that does not point to web.archive.org. Please check: ${{ GITHUB.SERVER_URL }}/${{ GITHUB.REPOSITORY }}/actions/runs/${{ GITHUB.RUN_ID }}""
