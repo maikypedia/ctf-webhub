@@ -23,7 +23,7 @@ jobs:
           - name: Check links
             shell: bash -x {0}
             run: |
-              grep -riEo 'https?://[^) ]+' gitbook/ | grep -v '#nocheck' | sort | uniq | while read -r URL; do
+              grep --no-filename -riEo 'https?://[^) ]+' gitbook/ | grep -v '#nocheck' | sort | uniq | while read -r URL; do
                 python3 -c "from urllib.parse import urlparse; assert urlparse(\"$URL\").netloc == 'web.archive.org'"
               done
 
