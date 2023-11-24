@@ -1,3 +1,3 @@
 # Challenges
 
-* [Example CTF - Example challenge](example-ctf/example-challenge.md)
+* [corCTF-2023](corCTF-2023/README.md)
