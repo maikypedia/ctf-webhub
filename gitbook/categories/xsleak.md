@@ -8,4 +8,4 @@ Cross-site leaks (aka XS-Leaks, XSLeaks) are a class of vulnerabilities derived 
 
 ## Challenges
 
-* [Leakynote - Strellic](/gitbook/challenges/corCTF-2023/leakynote.md)
+* [Leakynote (corCTF 2023)](/gitbook/challenges/corCTF-2023/leakynote.md)
