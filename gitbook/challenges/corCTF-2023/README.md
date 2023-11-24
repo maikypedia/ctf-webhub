@@ -8,4 +8,6 @@
 
 | Challenge                   | Category          | Solves  | Author
 | ----------------------------- | ------------------- | ------- | -------
-| [Leakynote](/gitbook/challenges/corCTF-2023/leakynote.md) |  * [Cross-site Leak (XSLeak)](/gitbook/categories/xsleak.md)   | 3      | [@Strellic_](https://twitter.com/Strellic_) & [@EhhThing](https://twitter.com/EhhThing)
+| [Leakynote](/gitbook/challenges/corCTF-2023/leakynote.md) |  [Cross-site Leak (XSLeak)](/gitbook/categories/xsleak.md)   | 3      | [@Strellic_](https://twitter.com/Strellic_) & [@EhhThing](https://twitter.com/EhhThing)
+| [pdf-pal](/gitbook/challenges/corCTF-2023/pdf-pal.md) |  Pending   | 2      | [@Strellic_](https://twitter.com/Strellic_)
+| [lemon-csp](/gitbook/challenges/corCTF-2023/lemon-csp.md) |  Pending   | 1      | [@EhhThing](https://twitter.com/EhhThing)
