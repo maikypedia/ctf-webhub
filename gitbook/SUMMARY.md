@@ -2,5 +2,6 @@
 
 * [README](../README.md)
 * [Challenges](challenges/README.md)
+  * [corCTF-2023](corCTF-2023/README.md)
 * [Categories](categories/README.md)
-  * [Cross-site Leak (XSLeak)](categories/cross-site-leak-xsleak.md)
+  * [Cross-site Leak (XSLeak)](categories/xsleak.md)

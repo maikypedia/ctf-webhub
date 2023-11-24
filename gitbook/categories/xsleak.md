@@ -1,4 +1,4 @@
-# Cross-site Leak
+# Cross-site Leak (XSLeak)
 
 some-description
 

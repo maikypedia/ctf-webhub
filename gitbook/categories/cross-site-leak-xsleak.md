@@ -1,2 +1,0 @@
-# Cross-site Leak (XSLeak)
-
