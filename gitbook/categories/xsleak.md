@@ -8,4 +8,4 @@ some-description
 
 ## Challenges
 
-* [Leakynote - Strellic](../challenges/corCTF-2023/leakynote.md)
+* [Leakynote - Strellic](/gitbook/challenges/corCTF-2023/leakynote.md)
