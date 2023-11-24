@@ -5,3 +5,5 @@
   * [corCTF-2023](challenges/corCTF-2023/README.md)
 * [Categories](categories/README.md)
   * [Cross-site Leak (XSLeak)](categories/xsleak.md)
+  * [Cross-site Scripting (XSS)](categories/xss.md)
+
