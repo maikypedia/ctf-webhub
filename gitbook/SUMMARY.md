@@ -6,4 +6,7 @@
 * [Categories](categories/README.md)
   * [Cross-site Leak (XSLeak)](categories/xsleak.md)
   * [Cross-site Scripting (XSS)](categories/xss.md)
+  * [Open redirect](categories/open-redirect.md)
+  * [Local File Inclusion (LFI)](categories/lfi.md)
+  * [GraphQL batch](categories/graphql-batch.md)
 

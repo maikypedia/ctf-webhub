@@ -4,4 +4,4 @@
 
 * [Cross-site Leak (XSLeak)](xsleak.md)
 * [Cross-site Scripting (XSS)](xss.md)
-
+* [Open redirect](open-redirect.md)

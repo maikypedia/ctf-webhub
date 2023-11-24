@@ -7,3 +7,4 @@
 ## Challenges
 
 * [lemon-csp (corCTF 2023)](/gitbook/challenges/corCTF-2023/lemon-csp.md)
+* [crabspace (corCTF 2023)](/gitbook/challenges/corCTF-2023/crabspace.md)
