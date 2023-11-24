@@ -1,6 +1,6 @@
 # Cross-site Leak (XSLeak)
 
-some-description
+Cross-site leaks (aka XS-Leaks, XSLeaks) are a class of vulnerabilities derived from side-channels 1 built into the web platform. They take advantage of the web’s core principle of composability, which allows websites to interact with each other, and abuse legitimate mechanisms 2 to infer information about the user. One way of looking at XS-Leaks is to highlight their similarity with cross-site request forgery (CSRF 3) techniques, with the main difference being that instead of allowing other websites to perform actions on behalf of a user, XS-Leaks can be used to infer information about a user.
 
 ## Resources
 

@@ -9,7 +9,7 @@
 > Yet another note taking application...
 > HINT: the flag format for this chall is corctf{[a-z]+}
 
-## Writeups
+## Writeups
 
 - [Strellic Author Writeup](https://web.archive.org/web/20231124100005/https://brycec.me/posts/corctf_2023_challenges#leakynote)
 
