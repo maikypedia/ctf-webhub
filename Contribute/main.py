@@ -14,8 +14,8 @@ data = {
     "Open redirect": "open-redirect.md",
     "Local File Inclusion (LFI)": "lfi.md",
     "GraphQL batch": "graphql-batch.md",
-   "Template Injection":"template-injection.md",
-   "Cache Poisoning": "cache-poisoning.md"
+    "Template Injection":"template-injection.md",
+    "Cache Poisoning": "cache-poisoning.md"
 }
 
 # CTF has to be single value
@@ -84,7 +84,7 @@ def add_challs(form, output_directory):
                 category = key
                 category_path = data[key]
         with open("../gitbook/categories/"+category_path, 'a', encoding='utf-8') as file:
-            file.write("* [{} ({})](/gitbook/challenges/{}/{}.md)".format(form["Challenges"][i], form["CTF"].split("@")[0],output_directory,form["Challenges"][i].lower().replace(" ", "-")))
+            file.write("* [{} ({})]({}/{}.md)\n".format(form["Challenges"][i], form["CTF"].split("@")[0],output_directory[2:],form["Challenges"][i].lower().replace(" ", "-")))
         with open(output_directory+"/README.md", 'a', encoding='utf-8') as file:
             file.write(template.format(form["Challenges"][i], form["Challenges"][i].lower().replace(" ", "-"), category, category_path, form["Solves"][i], form["Authors"][i].split("@")[0], form["Authors"][i].split("@")[1]) + '\n')
 
