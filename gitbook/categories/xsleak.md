@@ -9,4 +9,4 @@ Cross-site leaks (aka XS-Leaks, XSLeaks) are a class of vulnerabilities derived 
 ## Challenges
 
 * [Leakynote (corCTF 2023)](/gitbook/challenges/corCTF-2023/leakynote.md)
-* [Leakless Note (SekaiCTF 2023)](/gitbook/challenges/../gitbook/challenges/sekaictf2023/leakless-note.md)* [Leakless Note (SekaiCTF 2023)](/gitbook/challenges/../gitbook/challenges/sekaictf2023/leakless-note.md)* [Leakless Note (SekaiCTF 2023)](/gitbook/../gitbook/challenges/sekaictf2023/leakless-note.md)* [Leakless Note (SekaiCTF 2023)](/gitbook/challenges/sekaictf2023/leakless-note.md)
+* [Leakless Note (SekaiCTF 2023)](/gitbook/challenges/../gitbook/challenges/sekaictf2023/leakless-note.md)

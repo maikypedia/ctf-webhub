@@ -9,7 +9,7 @@
   * [Cross-site Scripting (XSS)](categories/xss.md)
   * [Command Injection](categories/command-injection.md)
   * [Template Injection](categories/template-injection.md)
-  * [Cache Poisoning](cache-poisoning.md)
+  * [Cache Poisoning](categories/cache-poisoning.md)
   * [Open redirect](categories/open-redirect.md)
   * [Local File Inclusion (LFI)](categories/lfi.md)
   * [GraphQL batch](categories/graphql-batch.md)
