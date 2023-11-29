@@ -61,7 +61,7 @@ def create_ctf(form):
     with open("../gitbook/challenges/README.md", "r") as file:
         lines = file.readlines()
 
-    lines.insert(3, "* [{}](/gitbook/challenges/{}/README.md)".format(form["CTF"].split("@")[0], chall_directory)+"\n")
+    lines.insert(3, "* [{}]({}/README.md)".format(form["CTF"].split("@")[0], chall_directory)+"\n")
 
     with open("../gitbook/challenges/README.md", "w") as file:
         file.writelines(lines)
