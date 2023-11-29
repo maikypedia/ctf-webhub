@@ -34,7 +34,6 @@ def move_files(form):
     for i in form["Challenges"]:
         chall_sources.append("../files/" + chall_directory + "/" + i.lower().replace(" ", "-"))
         os.makedirs("../files/" + chall_directory + "/" + i.lower().replace(" ", "-"))
-    print(chall_sources)
     
     for i in form["Filename"]:
         shutil.move("files/"+i, chall_sources[0] + "/" + i.lower().replace(" ", "-"))
@@ -59,8 +58,21 @@ def create_ctf(form):
     with open("gitbook-template/ctf-template.md", 'r', encoding='utf-8') as template_file, open(output_path, 'w', encoding='utf-8') as output_file:
         output_file.write(template_file.read().format(**substitutions))
 
-    with open("../gitbook/challenges/README.md", 'a', encoding='utf-8') as file:
-            file.write("* [{}](/gitbook/challenges/{}/README.md)".format(form["CTF"].split("@")[0], chall_directory)+"\n")
+    with open("../gitbook/challenges/README.md", "r") as file:
+        lines = file.readlines()
+
+    lines.insert(3, "* [{}](/gitbook/challenges/{}/README.md)".format(form["CTF"].split("@")[0], chall_directory)+"\n")
+
+    with open("../gitbook/challenges/README.md", "w") as file:
+        file.writelines(lines)
+
+    with open("../gitbook/SUMMARY.md", "r") as file:
+        lines = file.readlines()
+
+    lines.insert(4, "  * [{}](/gitbook/challenges/{}/README.md)".format(form["CTF"].split("@")[0], chall_directory)+"\n")
+
+    with open("../gitbook/SUMMARY.md", "w") as file:
+        file.writelines(lines)
 
     return output_directory
 
@@ -71,12 +83,12 @@ def add_challs(form, output_directory):
             if form["Category"][i] == str(index):
                 category = key
                 category_path = data[key]
+        with open("../gitbook/categories/"+category_path, 'a', encoding='utf-8') as file:
+            file.write("* [{} ({})](/gitbook/challenges/{}/{}.md)".format(form["Challenges"][i], form["CTF"].split("@")[0],output_directory,form["Challenges"][i].lower().replace(" ", "-")))
         with open(output_directory+"/README.md", 'a', encoding='utf-8') as file:
             file.write(template.format(form["Challenges"][i], form["Challenges"][i].lower().replace(" ", "-"), category, category_path, form["Solves"][i], form["Authors"][i].split("@")[0], form["Authors"][i].split("@")[1]) + '\n')
 
 def create_chall_posts(form, output_directory):
-    
-
     for i in range(len(form["Challenges"])):
         substitutions = {
             "Ctf": form["CTF"].split("@")[0].lower().replace(" ", ""),

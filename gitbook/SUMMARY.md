@@ -2,6 +2,7 @@
 
 * [README](../README.md)
 * [Challenges](challenges/README.md)
+  * [SekaiCTF 2023](/gitbook/challenges/sekaictf2023/README.md)
   * [corCTF-2023](challenges/corCTF-2023/README.md)
 * [Categories](categories/README.md)
   * [Cross-site Leak (XSLeak)](categories/xsleak.md)
