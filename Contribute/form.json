@@ -1,0 +1,55 @@
+{
+    "CTF": "SekaiCTF 2023@https://ctftime.org/event/1923/",
+    "Team": "Project Sekai@https://ctftime.org/team/169557/",
+    "Weight": "24,86",
+    "Challenges": [
+        "Scanner Service",
+        "Frog-WAF",
+        "Chunky",
+        "Golf Jail",
+        "Leakless Note"
+    ],
+    "Descriptions": [
+        "You know how to nmap?",
+        "FrogCorp™ has recently developed a cutting-edge web application designed to thoroughly test their brand new security feature (Frog-WAF). Can you beat their innovative protection?",
+        "Welcome to my chunky blogging site.",
+        "I hope you like golfing ⛳🏌️⛳🏌️",
+        "This time my note application will have no leaks!"
+    ],
+    "Category": [
+        "3",
+        "7",
+        "8",
+        "2",
+        "1"
+    ],
+    "Authors": [
+        "irogir@irogir",
+        "irogir@irogir",
+        "rik@rik",
+        "strellic@strellic",
+        "strellic@strellic"
+    ],
+    "Solves": [
+        "146",
+        "29",
+        "16",
+        "16",
+        "4"
+    ],
+    "Writeups": [
+        "squ1rrel Writeup@https://web.archive.org/web/20231129134104/https://squ1rrel.dev/sekai-scanner",
+        "fireshellsecurity Writeup@https://web.archive.org/web/20231129134613/https://fireshellsecurity.team/sekaictf-frog-waf-and-chunky/#challenge-frog-waf-29-solves",
+        "Neptunian Writeup@https://web.archive.org/web/20231129134613/https://fireshellsecurity.team/sekaictf-frog-waf-and-chunky/#challenge-chunky-16-solves",
+        "Maitai Writeup@https://web.archive.org/web/20231129135107/https://leonsirio.github.io/2023/08/29/sekai23-golf-jail.html",
+        "Maikypedia Writeup@"
+    ],
+    "Filename": [
+        "scanner-service.zip",
+        "frog-waf.zip",
+        "chunky.zip",
+        "golfjail.php",
+        "leaklessnote.zip"
+    ],
+    "contributor": "YourUsername@YourTwitter"
+}
